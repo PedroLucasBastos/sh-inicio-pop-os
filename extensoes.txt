@@ -1,7 +1,0 @@
-1-Sound input & output Device chooser
-2-transparent top bar
-3-always show titles in overview
-4-application overview tooltip
-5-bluetooth quick connect
-6-user themes
-7-auto move window
