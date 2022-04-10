@@ -1,0 +1,20 @@
+##--------------------------------------------------------------------------------------------##
+                                        Extensões
+
+1-Sound input & output Device chooser
+2-transparent top bar
+3-always show titles in overview
+4-application overview tooltip
+5-bluetooth quick connect
+6-user themes
+7-auto move window
+8-Dash to dock 
+
+##--------------------------------------------------------------------------------------------##
+                                    Configurações Gerais
+
+Oh my zsh:
+https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/
+https://www.youtube.com/watch?v=gn7PHkYLDZU
+
+Desativar doc padrão do Pop_Os

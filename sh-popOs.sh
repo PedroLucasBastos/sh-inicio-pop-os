@@ -47,7 +47,6 @@ PROGRAMAS_PARA_INSTALAR=(
   steam-installer
   steam-devices
   gparted
-  code
   gnome-sushi 
   folder-color
   git
@@ -90,12 +89,13 @@ done
   flatpak install flathub com.spotify.Client -y
   flatpak install flathub com.bitwarden.desktop -y
   flatpak install flathub org.qbittorrent.qBittorrent -y
+  flatpak install flathub com.visualstudio.code -y
 
 ## Instalando pacotes Snap ##
 
 echo -e "${VERDE}[INFO] - Instalando pacotes snap${SEM_COR}"
 
-sudo snap install authy
+sudo snap install authy -y
 
 ##--------------------------------------------------------------------------------------------##
 ##                       Pós-instalação
