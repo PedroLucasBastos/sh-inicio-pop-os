@@ -36,9 +36,6 @@ travas_apt
 ## Adicionando/Confirmando arquitetura de 32 bits ##
 sudo dpkg --add-architecture i386
 
-## Instalando codec para suportar html5 no vivald
-sudo apt install chromium-codecs-ffmpeg-extra
-
 ## Atualizando o repositório ##
 sudo apt update -y
 
@@ -96,6 +93,14 @@ done
 echo -e "${VERDE}[INFO] - Instalando pacotes snap${SEM_COR}"
 
 sudo snap install authy -y
+
+##--------------------------------------------------------------------------------------------##
+##                       codecs de video
+sudo apt install ubuntu-restricted-extras -y
+
+## Instalando codec para suportar html5 no vivald
+sudo apt install chromium-codecs-ffmpeg-extra
+
 
 ##--------------------------------------------------------------------------------------------##
 ##                       Pós-instalação
